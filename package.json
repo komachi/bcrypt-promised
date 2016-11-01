@@ -1,0 +1,36 @@
+{
+  "name": "bcrypt-promised",
+  "version": "1.0.0",
+  "description": "A promised version of bcrypt",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  },
+  "peerDependencies": {
+    "bcrypt": "^0.8.0"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komachi/bcrypt-promised.git"
+  },
+  "keywords": [
+    "bcrypt",
+    "bluebird",
+    "promise",
+    "promisified"
+  ],
+  "author": "Anton Nesterov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komachi/bcrypt-promised/issues"
+  },
+  "homepage": "https://github.com/komachi/bcrypt-promised#readme"
+}
