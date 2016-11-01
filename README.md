@@ -4,7 +4,7 @@
 
 ## Installation
 
-Take not that you need also to add bcrypt to your package.json as it linked as peer dependency.
+Take note that you need also to add bcrypt to your package.json as it linked as peer dependency.
 
 ```
 npm i bcrypt-promised bcrypt --save
@@ -12,7 +12,7 @@ npm i bcrypt-promised bcrypt --save
 
 ## API
 
-*Take note that this module return error (**MismatchError**) then compare fails.*
+*Take note that this module return error (**MismatchError**) when compare fails.*
 
 Check out [README of original bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme) to get meaning of all this.
 
