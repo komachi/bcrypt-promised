@@ -1,17 +1,17 @@
 {
   "name": "bcrypt-promised",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A promised version of bcrypt",
   "main": "lib/index.js",
   "dependencies": {
-    "bluebird": "^3.4.6"
+    "bluebird": "^3.4.7"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0"
   },
   "peerDependencies": {
-    "bcrypt": "^0.8.0"
+    "bcrypt": ">0.8.0"
   },
   "scripts": {
     "prepublish": "./node_modules/.bin/babel src -d lib",

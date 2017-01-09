@@ -14,9 +14,12 @@ export function hash(data, salt) {
 export function compare(data, encrypted) {
   return bcryptP.compareAsync(data, encrypted).then(res => {
     if (res === false) {
-      return Promise.reject(new Error('MismatchError'));
+      throw {
+        name: 'MismatchError',
+        message: 'MismatchError'
+      };
     }
-    return Promise.resolve(res);
+    return res;
   });
 }
 
