@@ -1,3 +1,7 @@
+# THIS IS DEPRECATED
+
+Use upstream [node.bcrypt.js](https://github.com/kelektiv/node.bcrypt.js), it supports promises.
+
 # bcrypt-promised
 
 > A promised version of [bcrypt](https://github.com/kelektiv/node.bcrypt.js).
